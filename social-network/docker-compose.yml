@@ -12,7 +12,7 @@ services:
       - app-network
 
   user-service:
-    build: ./user-service
+    build: ./user_service
     ports:
       - "8001:8001"
     environment:
